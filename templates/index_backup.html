@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Text analyzer made by Harsh</h1> 
+  <h2>please enter your text below:</h2>
+  <form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 914px; height: 266px;'></textarea>,<br>
+    <input type="checkbox" name="remove_punc">remove punctuation
+    <input type="checkbox" name="capitalize">Capitalize
+    <input type="checkbox" name="newlineremove">new_line
+    <input type="checkbox" name="remove_spaces">remove_spaces
+    <input type="checkbox" name="char_count">char_count
+    <button type='submit'>analyze</button>
+  </form>
+  
+</body>
+</html>
